@@ -2,7 +2,7 @@ import copy
 
 
 def is_valid(pos, rows, cols):
-    """This is a method that checks whether the cell coordinates are within the matrix"""
+    """This is a function that checks whether the cell coordinates are within the matrix"""
 
     row = pos[0]
     col = pos[1]
@@ -10,7 +10,7 @@ def is_valid(pos, rows, cols):
 
 
 def get_neighbouring_green_cells_count(row, col, rows_num, columns_num, grid):
-    """This is a method that returns the number of the green cells around"""
+    """This is a function that returns the number of the green cells around"""
 
     nearby_green_cells = 0
 
